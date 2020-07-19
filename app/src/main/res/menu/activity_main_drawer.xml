@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@drawable/baseline_ballot_black_48dp"
+            android:title="Tasks" />
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@drawable/baseline_group_black_48dp"
+            android:title="Groups" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/baseline_domain_black_48dp"
+            android:title="Projects" />
+    </group>
+</menu>
