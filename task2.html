@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        
+        <title>Groups</title>
+        
+
+         <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="mystyle.css">
+        
+       <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        
+        <style type="text/css">
+            
+            body{
+               
+                background-image: linear-gradient(to bottom right,   #92D050 10%, #00B050 50%,#375623);
+            }
+            
+            #user_logo{
+                font-size: 28px;
+            }
+            .footer {
+          position:fixed;
+           left: 0;
+           bottom: 0;
+             width: 100%;
+             background-color:grey;
+             color: white;
+              text-align: center;
+           }
+            
+            #accordion{
+               
+                padding-bottom: 40px;
+            }
+            .card{
+                margin: 60px;
+            }
+            
+            #new{
+                
+                margin-top: 80px;
+                    margin-left: 30px;
+                margin-bottom: 30px;
+                
+            }
+           
+        
+        
+        </style>
+        
+             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   
+
+    </head>
+    <body>
+        
+       
+       
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
+          <a class="navbar-brand" href="#">MyApp</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="task1.html">TASKS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="task2.html">GROUPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task3.html">PROJECTS</a>
+              </li>  
+                  <li class="nav-item">
+                <a class="nav-link" href="#">HISTORY</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">SETTINGS</a>
+              </li>
+            </ul>
+             <form class="form-inline my-2 my-lg-0">
+                <i class="far fa-user-circle mr-sm-2" id="user_logo"></i>
+                <output readonly class="form-control mr-sm-2" for="email" type="text" name="email">yourmail@gmail.com</output>
+              <button class="btn btn-danger my-2 my-sm-0" type="submit">Logout</button>
+                 </form>
+          </div>
+        </nav>
+        
+        <div id="new">
+        
+         <button type="button" class="btn btn-primary">Create New Group</button>
+            
+            </div>
+        
+        <div id="accordion">    
+            
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Group Name #1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+     
+        <ul class="list-group">
+  <li class="list-group-item">Cras justo odio <span class="badge badge-info">Admin</span></li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Home</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Group Name #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+       <ul class="list-group">
+  <li class="list-group-item">Cras justo odio <span class="badge badge-info">Admin</span></li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Home</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           Group Name #3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+       <ul class="list-group">
+  <li class="list-group-item">Cras justo odio <span class="badge badge-info">Admin</span></li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Home</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+    </div>
+  </div>
+            <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           Group Name #4
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+       <ul class="list-group">
+  <li class="list-group-item">Cras justo odio <span class="badge badge-info">Admin</span></li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Home</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+    </div>
+  </div>
+            
+            <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           Group Name #5
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+       <ul class="list-group">
+  <li class="list-group-item">Cras justo odio <span class="badge badge-info">Admin</span></li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Home</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+    </div>
+  </div>
+            
+             <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           Group Name #6
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+       <ul class="list-group">
+  <li class="list-group-item">Cras justo odio <span class="badge badge-info">Admin</span></li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Home</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+    </div>
+  </div>
+             
+            
+</div>
+ 
+       
+        <footer class="footer">
+         <div class="container">
+               <p>&copy;copyright 2020</p>
+           </div>
+            </footer>
+        
+      
+        <script type="text/javascript">
+        
+       // $('#myList a').on('click', function (e) {
+ // e.preventDefault()
+ // $(this).tab('show')
+//})
+           
+           
+        
+        </script>
+       
+    </body>
+
+
+</html>
